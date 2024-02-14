@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Songster Capital',
-  description: 'A global investment firm with subject matter expertise in cloud computing, artificial intelligence, and generative AI',
+  description: 'A global investment firm with subject matter expertise in cloud computing, artificial intelligence, and quantum mechanics',
 }
 const openSans = Inter({
   subsets: ['latin'],
