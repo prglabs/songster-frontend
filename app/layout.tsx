@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html className='overflow bg-black' lang="en bg-black">
-      <body className={openSans.className} suppressHydrationWarning>
+      <body className={`${openSans.className} flex flex-col justify-center items-center min-h-screen`} suppressHydrationWarning>
         {children}
         <Footer />
       </body>
