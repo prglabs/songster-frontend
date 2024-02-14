@@ -29,7 +29,7 @@ const SongsterPage: React.FC = () => {
 
   return (
     <div className="sm:max-w-sm px-4 md:px-0 text-center">
-      <div className="rounded mt-24">
+      <div className="rounded mt-12 md:mt-24">
         <WaterDropGrid />
         <h1 className="underline decoration-[#6366F2] justify-center tracking-tighter text-white font-bold text-4xl mt-8">Songster Capital</h1>
         <p className="text-sm text-white mt-6 md:w-[420px] md:-ml-[18px]">
