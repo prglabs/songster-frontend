@@ -1,19 +1,13 @@
 'use client';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import React, { useState, useEffect } from 'react';
-import { useAnimate } from "framer-motion";
+import React, { useEffect, useState } from 'react';
 
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
-import styles from '../styles/PeregrineLabsPage.module.css'; // Import custom CSS file for styles
-import WaterDropGrid from '../components/WaterDropGrid'
-import { TypeAnimation } from "react-type-animation";
 import Image from 'next/image';
-// import SquigglyLines from "./SquigglyLines";
+import WaterDropGrid from '../components/WaterDropGrid';
 
-const PeregrineLabsPage: React.FC = () => {
-  const [scope, animate] = useAnimate();
-
+const SongsterPage: React.FC = () => {
   const [size, setSize] = useState({ columns: 0, rows: 0 });
 
   useEffect(() => {
@@ -34,48 +28,39 @@ const PeregrineLabsPage: React.FC = () => {
   };
 
   return (
-    <div className=" flex justify-center items-center">
-      <div className={`max-w-xs`}>
-        <div className = "rounded-bg text-center rounded">   
-        <br></br>
-        <br></br>
-          <WaterDropGrid/>
-          <div className="">
-            <p className="underline decoration-indigo-500 text-left justify-center tracking-tighter text-white font-bold text-6xl mb-4">peregrine labs.</p>
-          </div>
-
-              <div className='text-sm text-white text-left'>
-              A Cloud-Native R&D firm with Subject Matter Expertise in <b>Artificial Intelligence, High Performance Computing, and Generative AI.</b>
-            </div>
-        </div>
-        <div>
-      </div>
-      
-      <div className="max-w-sm block text-white">
+    <div className="flex justify-center items-center">
+      <div className="sm:max-w-sm px-4 md:px-0 text-center">
+        <div className="rounded mt-12">
+          <WaterDropGrid />
+          <h1 className="underline decoration-[#6366F2] justify-center tracking-tighter text-white font-bold text-4xl mt-8">Songster Capital</h1>
+          <p className="text-sm text-white mt-6 md:w-[420px] md:-ml-[18px]">
+            A global investment firm with subject matter expertise in cloud
+            computing, artificial intelligence, and quantum mechanics
+          </p>
+          <div className="flex gap-6 text-white items-center justify-center mt-12">
             <a
-              href="https://www.linkedin.com/company/prglabs/about/"
+              href="https://www.linkedin.com/company/songster-capital"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm"
+              className="text-sm block"
             >
-              <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginRight: '10px' }}/>
-              </a>
-              {' '}
-              <a
-              href="https://github.com/prglabs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm"
-            >
-              <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginRight: '10px' }}/>
+              <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
-            {/* <button className='text-right bg'>contact us</button> */}
-          </div>  
+            <a
+              href="mailto: media@songstercapital.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm block"
+            >
+              <Image src={"/mail-icon.svg"} width={48} height={48} alt='icon email' />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </div >
   );
 };
 
-export default PeregrineLabsPage;
+export default SongsterPage;
 
 

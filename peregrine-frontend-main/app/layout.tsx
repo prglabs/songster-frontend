@@ -2,9 +2,10 @@ import type { Metadata } from 'next'
 import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
+import Footer from '@/components/Footer'
 export const metadata: Metadata = {
-  title: 'Peregrine Labs',
-  description: 'Cloud Native Services Firm',
+  title: 'Songster Capital',
+  description: 'A global investment firm with subject matter expertise in cloud computing, artificial intelligence, and generative AI',
 }
 const openSans = Inter({
   subsets: ['latin'],
@@ -19,18 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html className='overflow bg-black' lang="en bg-black">
-      <body className={openSans.className}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '10vh' }}>
-            <Navbar/>
-          </div>
-          <div>
+      <body className={openSans.className} suppressHydrationWarning>
         {children}
-        <footer className="py-4 font-semibold tracking-tighter text-center w-full footer text-center text-gray-500 mt-20 text-xs " style={{ textAlign: 'center', backgroundColor: 'black' }}>
-        {new Date().getFullYear()} Peregrine Labs Inc. All rights reserved.
-      </footer>
-        </div>
-        
-        </body>
+        <Footer />
+      </body>
     </html>
   )
 }
