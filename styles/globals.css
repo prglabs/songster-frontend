@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -19,5 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  
+  font-family: var(--font-inter);
+}
+
+.font-open-sans {
+  font-family: var(--font-open-sans);
 }
