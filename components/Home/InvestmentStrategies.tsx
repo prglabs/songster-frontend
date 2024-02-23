@@ -5,7 +5,7 @@ import SectionWrapper from "../SectionWrapper";
 const InvestmentStrategies = () => {
   return (
     <SectionWrapper bgColor="white" id="investment">
-      <div className="px-4 md:px-0 mx-4 xl:mx-auto max-w-7xl">
+      <div className="px-4 md:px-0 mx-4 xl:mx-auto max-w-7xl py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="flex flex-col md:flex-row gap-5">
             <div className="flex-initial">
