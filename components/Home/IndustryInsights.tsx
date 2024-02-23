@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const IndustryInsights = () => {
   return (
-    <section className="bg-primary w-full" id="industry">
+    <section className="bg-primary w-full text-slate-50" id="industry">
       <div className="px-4 md:px-0 text-center mx-4 lg:mx-auto py-12 max-w-7xl">
         <h2 className="text-3xl lg:text-5xl mb-16 font-open-sans font-semibold">
           Industry Insights

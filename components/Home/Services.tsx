@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="w-full" id="services">
+    <section className="w-full text-slate-50" id="services">
       <div className="px-4 md:px-0 text-center mx-4 lg:mx-auto py-12 max-w-6xl">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-open-sans font-bold leading-snug">
           Decades of Experience Building and Operating Cloud-Native Businesses

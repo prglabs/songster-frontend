@@ -7,7 +7,10 @@ import Footer from "../Footer";
 
 const Hero = () => {
   return (
-    <section className="sm:max-w-sm px-4 md:px-0 text-center" id="home">
+    <section
+      className="sm:max-w-sm px-4 md:px-0 text-center text-slate-50"
+      id="home"
+    >
       <div className="mt-12 md:mt-24">
         <WaterDropGrid />
         <h1 className="underline decoration-primary decoration-4 justify-center font-bold text-4xl mt-8">
@@ -26,7 +29,7 @@ const Hero = () => {
             title="Songster-capital Linkedin Profile"
             aria-label="Songster-capital Linkedin Profile"
           >
-            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            <FontAwesomeIcon icon={faLinkedin} size="3x" color="white" />
           </a>
           <a
             href="mailto: media@songstercapital.com"
