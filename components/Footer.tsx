@@ -1,11 +1,18 @@
-import React from 'react'
+import { footerProps } from "@/@types/general";
+import React from "react";
 
-function Footer() {
+function Footer({ darkMode = false }: footerProps) {
+  const variant = {};
   return (
-    <footer className="py-4 font-semibold tracking-tighter text-center w-full footer text-gray-500 text-xs ">
-      &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights reserved
-    </footer>
-  )
+    <div
+      className={`${
+        darkMode ? "text-gray-400" : "text-white text-sm bg-primary"
+      } py-4 text-center w-full font-open-sans`}
+    >
+      &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights
+      reserved
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
