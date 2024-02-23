@@ -1,10 +1,11 @@
 import Image from "next/image";
 import data from "../../constant/investmentStrategies.json";
 import { Fragment } from "react";
+import SectionWrapper from "../SectionWrapper";
 const InvestmentStrategies = () => {
   return (
-    <section className="bg-white text-slate-950 w-full" id="investment">
-      <div className="px-4 md:px-0 mx-4 xl:mx-auto pb-12 pt-16 max-w-7xl">
+    <SectionWrapper bgColor="white" id="investment">
+      <div className="px-4 md:px-0 mx-4 xl:mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="flex flex-col md:flex-row gap-5">
             <div className="flex-initial">
@@ -43,7 +44,7 @@ const InvestmentStrategies = () => {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 

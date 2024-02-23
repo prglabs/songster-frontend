@@ -4,14 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import Footer from "../Footer";
+import SectionWrapper from "../SectionWrapper";
 
 const Hero = () => {
   return (
-    <section
-      className="sm:max-w-sm px-4 md:px-0 text-center text-slate-50"
+    <SectionWrapper
+      className="sm:max-w-sm px-4 md:px-0 text-center pb-12 pt-12 md:pt-18"
       id="home"
     >
-      <div className="mt-12 md:mt-24">
+      <>
         <WaterDropGrid />
         <h1 className="underline decoration-primary decoration-4 justify-center font-bold text-4xl mt-8">
           Songster Capital
@@ -48,8 +49,8 @@ const Hero = () => {
           </a>
         </div>
         <Footer darkMode />
-      </div>
-    </section>
+      </>
+    </SectionWrapper>
   );
 };
 
