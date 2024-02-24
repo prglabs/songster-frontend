@@ -6,7 +6,7 @@ import React from "react";
 
 const BlogPage = () => {
   return (
-    <section className="bg-white w-full text-slate-950 min-h-[200vh]">
+    <section className="bg-white w-full text-slate-950 min-h-[calc(100dvh-52px)]">
       <div className="mx-4 xl:mx-auto max-w-7xl py-4 lg:py-12">
         <Link
           href="/"
@@ -18,7 +18,7 @@ const BlogPage = () => {
         </Link>
         <div className="flex flex-col lg:flex-row gap:4 lg:gap-9">
           <div className="images basis-1/3">
-            <div className="lg:fixed lg:top-12 lg:left-auto w-[calc(100% - 32px)] lg:max-w-xs xl:max-w-sm">
+            <div className="lg:fixed lg:top-12 lg:left-auto lg:max-w-xs xl:max-w-sm">
               <Image
                 src="/CloudCostImage.webp"
                 alt="Cloud Cost Image"
@@ -39,7 +39,7 @@ const BlogPage = () => {
             <h1 className="text-xl md:text-3xl lg:text-4xl font-semibold">
               Increasing Margins through Multi-Layer Cloud Cost Optimization
             </h1>
-            <p className="text-sm text-slate-400 mt-2 mb-4">
+            <p className="text-sm text-slate-400 mt-6 mb-4">
               [PLACEHOLDER TEXT] Songster Capital’s technology growth strategy
               provides stage-agnostic support to privately held cloud-native
               businesses. We engage in direct investments, co-investments, and
