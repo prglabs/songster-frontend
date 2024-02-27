@@ -26,7 +26,7 @@ const Contacts = ({ color = "black", classNameWrapper }: ContactsProps) => {
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          size="3x"
+          size="2x"
           color={color === "primary" ? "white" : color}
         />
       </a>
@@ -39,8 +39,8 @@ const Contacts = ({ color = "black", classNameWrapper }: ContactsProps) => {
         aria-label="Send email to media@songstercapital.com"
       >
         <svg
-          width="48"
-          height="48"
+          width="40"
+          height="40"
           viewBox="0 0 480 480"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

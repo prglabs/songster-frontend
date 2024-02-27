@@ -6,7 +6,9 @@ const WaterDropGrid = () => {
   useEffect(() => {
     if (dotGridRef.current) {
       // Trigger a click event on the top-left corner dot when the component loads
-      const topLeftDot = dotGridRef.current.querySelector('.dot-point[data-index="0"]');
+      const topLeftDot = dotGridRef.current.querySelector(
+        '.dot-point[data-index="0"]'
+      );
       if (topLeftDot) {
         topLeftDot.click();
       }
@@ -52,12 +54,12 @@ const DotGrid = () => {
     for (let j = 0; j < GRID_HEIGHT; j++) {
       dots.push(
         <div
-          className="group cursor-crosshair rounded-full p-1 transition-colors hover:bg-slate-600"
+          className="group cursor-crosshair rounded-full p-1.5 transition-colors hover:bg-slate-600"
           data-index={index}
           key={`${i}-${j}`}
         >
           <div
-            className="dot-point h-1.5 w-1.5 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 opacity-50 group-hover:from-indigo-600 group-hover:to-white"
+            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 opacity-50 group-hover:from-indigo-600 group-hover:to-white"
             data-index={index}
           />
         </div>
