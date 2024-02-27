@@ -14,7 +14,7 @@ const Hero = () => {
           <h1 className="relative z-10 justify-center font-bold text-[42px] mt-8">
             Songster Capital
           </h1>
-          <div className="absolute bottom-0 z-0 border-b-[5px] border border-primary w-full"></div>
+          <div className="absolute bottom-2 z-0 border-b-[5px] border border-primary w-full"></div>
         </div>
         <p className="mt-6 md:w-[520px] md:-ml-[68px]">
           We invest in cloud computing, artificial intelligence, and the
