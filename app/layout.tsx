@@ -21,7 +21,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         {children}
-        <Footer />
+        <Footer darkMode />
       </body>
     </html>
   );

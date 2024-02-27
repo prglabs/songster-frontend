@@ -12,7 +12,7 @@ const SectionWrapper = ({
   id,
   bgColor = "black",
 }: SectionWrapperProps) => {
-  const defaultClassName = "min-h-screen w-full flex flex-col justify-center";
+  const defaultClassName = "w-full flex flex-col justify-center";
   const bgColorClassName = {
     black: "bg-slate-950 text-white",
     white: "bg-white text-slate-950",

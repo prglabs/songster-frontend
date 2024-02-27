@@ -1,5 +1,4 @@
 import Contacts from "../Contacts";
-import Footer from "../Footer";
 import SectionWrapper from "../SectionWrapper";
 import WaterDropGrid from "../WaterDropGrid";
 
@@ -19,8 +18,6 @@ const Hero = () => {
           of cloud computing, artificial intelligence, and quantum mechanics
         </p>
         <Contacts color="white" />
-
-        <Footer darkMode />
       </>
     </SectionWrapper>
   );
