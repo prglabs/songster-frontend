@@ -14,7 +14,7 @@ const bgColor = {
 const Contacts = ({ color = "black", classNameWrapper }: ContactsProps) => {
   return (
     <div
-      className={`flex gap-6 items-center justify-center mt-12 mb-2 ${classNameWrapper}`}
+      className={`flex gap-3 items-center justify-center mt-4 ${classNameWrapper}`}
     >
       <a
         href="https://www.linkedin.com/company/songster-capital"
