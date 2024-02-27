@@ -5,7 +5,7 @@ import { inter, openSans } from "./font";
 export const metadata: Metadata = {
   title: "Songster Capital",
   description:
-    "A global investment firm with subject matter expertise in cloud computing, artificial intelligence, and quantum mechanics",
+    "We invest in cloud computing, artificial intelligence, and the commercialization of quantum mechanics",
 };
 
 export default function RootLayout({
