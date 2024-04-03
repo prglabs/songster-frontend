@@ -1,5 +1,5 @@
-import { footerProps } from "@/@types/general";
-import React from "react";
+import { footerProps } from '@/@types/general';
+import React from 'react';
 
 function Footer({ darkMode = false, asDiv = false }: footerProps) {
   const variant = {};
@@ -8,8 +8,8 @@ function Footer({ darkMode = false, asDiv = false }: footerProps) {
       {asDiv ? (
         <div
           className={`${
-            darkMode ? "text-gray-400" : "text-white text-sm bg-primary"
-          } py-4 text-center w-full font-open-sans`}
+            darkMode ? 'text-gray-400' : 'bg-primary text-sm text-white'
+          } font-open-sans w-full py-4 text-center`}
         >
           &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights
           reserved
@@ -17,8 +17,8 @@ function Footer({ darkMode = false, asDiv = false }: footerProps) {
       ) : (
         <footer
           className={`${
-            darkMode ? "text-gray-400" : "text-white text-sm bg-primary"
-          } py-4 text-center w-full font-open-sans`}
+            darkMode ? 'text-gray-400' : 'bg-primary text-sm text-white'
+          } font-open-sans w-full py-4 text-center`}
         >
           &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights
           reserved

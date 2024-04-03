@@ -1,0 +1,16 @@
+{
+  "accordion": [
+    {
+      "title": "01 | Private Equity",
+      "content": "The firm’s flagship buyout strategy invests in public and privately held cloud-native businesses with potential for growth and operational improvements. We take active stakes in companies where our industry experience and subject-matter expertise can help dictate exceptional outcomes. Our operating partners work shoulder-to-shoulder with management teams to transform GTM strategies, inject industry-leading talent, and accelerate product innovation using decades of hands-on experience building in the cloud."
+    },
+    {
+      "title": "02 | Tech Growth",
+      "content": "Supports privately held cloud-native businesses in artificial intelligence, enterprise software, quantum computing, and healthcare/life sciences. We engage in lead investments, co-investments, and secondary market transactions. Our team has held a front row seat to both sides of the playing field over the past decade – in both technology startups building in the cloud and at the industry’s largest public cloud providers such as AWS and Google. We bring deep sector expertise, a global network, and proprietary knowledge in navigating the complexities of the cloud computing ecosystem to every founder, investor, and business that we partner with."
+    },
+    {
+      "title": "03 | Private Credit",
+      "content": "Songster Capital’s private credit platform provides innovative capital solutions for software and services businesses seeking to scale operations. We take a disciplined approach to underwriting that focuses on principal preservation and consistent income generation. Our subject matter expertise enables us to identify emerging growth opportunities and our extensive network across the startups and cloud computing ecosystem provides a competitive edge to quality deal sourcing."
+    }
+  ]
+}

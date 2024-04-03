@@ -1,34 +1,34 @@
-import Image from "next/image";
-import React from "react";
-import SectionWrapper from "../SectionWrapper";
+import Image from 'next/image';
+import React from 'react';
+import SectionWrapper from '../SectionWrapper';
 
 const Services = () => {
   return (
-    <SectionWrapper bgColor="black" id="services">
+    <SectionWrapper bgColor='black' id='services'>
       <>
-        <div className="text-center mx-4 lg:mx-auto my-20 max-w-6xl">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-open-sans font-bold leading-snug">
+        <div className='mx-4 my-20 max-w-6xl text-center lg:mx-auto'>
+          <h2 className='font-open-sans text-2xl font-bold leading-snug md:text-3xl lg:text-4xl'>
             Decades of Experience Building and Operating Cloud-Native Businesses
           </h2>
         </div>
-        <div className="bg-white w-full min-h-screen flex flex-col justify-center">
-          <div className="mx-4 lg:mx-auto my-12 max-w-7xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 md:gap-20">
-              <div className="my-auto">
-                <h2 className="text-2xl md:text-4xl lg:text-5xl text-slate-900 font-bold font-open-sans mb-4 leading-none md:leading-snug">
+        <div className='flex min-h-screen w-full flex-col justify-center bg-white'>
+          <div className='mx-4 my-12 max-w-7xl lg:mx-auto'>
+            <div className='grid grid-cols-1 gap-y-4 md:gap-20 lg:grid-cols-2'>
+              <div className='my-auto'>
+                <h2 className='font-open-sans mb-4 text-2xl font-bold leading-none text-slate-900 md:text-4xl md:leading-snug lg:text-5xl'>
                   More than a Financial Engineering Exercise
                 </h2>
-                <p className="font-light text-sm text-gray-400">
+                <p className='text-sm font-light text-gray-400'>
                   We make disciplined investments in sectors where we believe
                   our subject matter expertise can influence the outcome.
                 </p>
               </div>
               <div>
                 <Image
-                  src="/All-services.png"
+                  src='/All-services.png'
                   width={800}
                   height={800}
-                  alt="all services pictures"
+                  alt='all services pictures'
                 />
               </div>
             </div>

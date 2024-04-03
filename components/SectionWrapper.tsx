@@ -1,26 +1,27 @@
-import { ReactElement } from "react";
+import { cn } from '@/lib/utils';
+import { ReactElement } from 'react';
 
 type SectionWrapperProps = {
   children: ReactElement;
   className?: string;
   id?: string;
-  bgColor?: "white" | "black";
+  bgColor?: 'white' | 'black';
 };
 const SectionWrapper = ({
   children,
   className,
   id,
-  bgColor = "black",
+  bgColor = 'black',
 }: SectionWrapperProps) => {
-  const defaultClassName = "w-full flex flex-col justify-center";
+  const defaultClassName = 'w-full flex flex-col justify-center';
   const bgColorClassName = {
-    black: "bg-black text-white",
-    white: "bg-white text-black ",
+    black: 'bg-black text-white',
+    white: 'bg-white text-black ',
   };
   return (
     <section
       id={id}
-      className={`${defaultClassName} ${bgColorClassName[bgColor]} ${className}`}
+      className={cn(defaultClassName, bgColorClassName[bgColor], className)}
     >
       {children}
     </section>

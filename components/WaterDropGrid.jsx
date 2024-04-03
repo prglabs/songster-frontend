@@ -1,5 +1,5 @@
-import anime from "animejs";
-import { useEffect, useRef } from "react";
+import anime from 'animejs';
+import { useEffect, useRef } from 'react';
 
 const WaterDropGrid = () => {
   const dotGridRef = useRef();
@@ -15,7 +15,7 @@ const WaterDropGrid = () => {
     }
   }, []);
   return (
-    <div className="relative grid place-content-center bg-white-900 px-1 py-1">
+    <div className='bg-white-900 relative grid place-content-center px-1 py-1'>
       <DotGrid />
     </div>
   );
@@ -27,18 +27,18 @@ const GRID_HEIGHT = 23;
 const DotGrid = () => {
   const handleDotClick = (e) => {
     anime({
-      targets: ".dot-point",
+      targets: '.dot-point',
       scale: [
-        { value: 1.35, easing: "easeOutSine", duration: 150 },
-        { value: 1, easing: "easeInOutQuad", duration: 200 },
+        { value: 1.35, easing: 'easeOutSine', duration: 150 },
+        { value: 1, easing: 'easeInOutQuad', duration: 200 },
       ],
       translateY: [
-        { value: -15, easing: "easeOutSine", duration: 150 },
-        { value: 0, easing: "easeInOutQuad", duration: 200 },
+        { value: -15, easing: 'easeOutSine', duration: 150 },
+        { value: 0, easing: 'easeInOutQuad', duration: 200 },
       ],
       opacity: [
-        { value: 1, easing: "easeOutSine", duration: 150 },
-        { value: 0.5, easing: "easeInOutQuad", duration: 300 },
+        { value: 1, easing: 'easeOutSine', duration: 150 },
+        { value: 0.5, easing: 'easeInOutQuad', duration: 300 },
       ],
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
@@ -54,12 +54,12 @@ const DotGrid = () => {
     for (let j = 0; j < GRID_HEIGHT; j++) {
       dots.push(
         <div
-          className="group cursor-crosshair rounded-full p-1 transition-colors hover:bg-slate-600"
+          className='group cursor-crosshair rounded-full p-1 transition-colors hover:bg-slate-600'
           data-index={index}
           key={`${i}-${j}`}
         >
           <div
-            className="dot-point h-1.5 w-1.5 md:h-2 md:w-2 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 opacity-50 group-hover:from-indigo-600 group-hover:to-white"
+            className='dot-point h-1.5 w-1.5 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 opacity-50 group-hover:from-indigo-600 group-hover:to-white md:h-2 md:w-2'
             data-index={index}
           />
         </div>
@@ -72,7 +72,7 @@ const DotGrid = () => {
     <div
       onClick={handleDotClick}
       style={{ gridTemplateColumns: `repeat(${GRID_WIDTH}, 1fr)` }}
-      className="grid w-fit"
+      className='grid w-fit'
     >
       {dots}
     </div>

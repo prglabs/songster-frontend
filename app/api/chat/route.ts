@@ -14,7 +14,7 @@ export async function POST(req: Request) {
   const { message } = await req.json();
   // Ask OpenAI for a streaming completion given the prompt
 
-  console.log(message, "in chat/route.ts")
+  console.log(message, 'in chat/route.ts');
 
   const response = await openai.createChatCompletion({
     model: 'gpt-3.5-turbo-0613',
@@ -22,7 +22,8 @@ export async function POST(req: Request) {
     messages: [
       {
         role: 'system',
-        content: 'You are an FAQ section, designed to only answer questions about the provided document. Any questions asked outside of this scope should be responded with \"This is outside my knowledge, contact the team!\"',
+        content:
+          'You are an FAQ section, designed to only answer questions about the provided document. Any questions asked outside of this scope should be responded with "This is outside my knowledge, contact the team!"',
       },
       {
         role: 'user',
@@ -34,7 +35,6 @@ export async function POST(req: Request) {
       },
     ],
   });
-
 
   // Convert the response into a friendly text-stream
   const stream = OpenAIStream(response);
