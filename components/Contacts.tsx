@@ -1,33 +1,50 @@
+import { cn } from '@/lib/utils';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { VariantProps, cva } from 'class-variance-authority';
 
 type ContactsProps = {
-  color?: 'black' | 'primary' | 'white';
-  classNameWrapper?: string;
+  className?: string;
+  color?: keyof typeof bgColor;
+  size?: keyof typeof sizeVariants;
 };
 
 const bgColor = {
-  black: 'white',
-  white: 'black',
-  primary: '#6366f3',
+  black: { main: 'black', contrast: 'white' },
+  white: { main: 'white', contrast: 'black' },
+  primary: {
+    main: 'hsl(var(--primary-foreground))',
+    contrast: 'hsl(var(--primary))',
+  },
 };
-const Contacts = ({ color = 'black', classNameWrapper }: ContactsProps) => {
+
+const sizeVariants = {
+  small: 32,
+  medium: 42,
+  large: 56,
+};
+
+const Contacts = ({
+  color = 'black',
+  size = 'medium',
+  className = '',
+}: ContactsProps) => {
   return (
-    <div
-      className={`mt-4 flex items-center justify-center gap-3 ${classNameWrapper}`}
-    >
+    <div className={cn('flex items-center justify-center gap-3', className)}>
       <a
         href='https://www.linkedin.com/company/songster-capital'
         target='_blank'
         rel='noopener noreferrer'
-        className='block'
         title='Songster-capital Linkedin Profile'
         aria-label='Songster-capital Linkedin Profile'
+        className='block'
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          size='2x'
-          color={color === 'primary' ? 'white' : color}
+          size='3x'
+          color={color === 'primary' ? 'white' : bgColor[color].main}
+          width={sizeVariants[size]}
+          height={sizeVariants[size]}
         />
       </a>
       <a
@@ -39,8 +56,8 @@ const Contacts = ({ color = 'black', classNameWrapper }: ContactsProps) => {
         aria-label='Send email to media@songstercapital.com'
       >
         <svg
-          width='40'
-          height='40'
+          width={sizeVariants[size]}
+          height={sizeVariants[size]}
           viewBox='0 0 480 480'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -51,19 +68,19 @@ const Contacts = ({ color = 'black', classNameWrapper }: ContactsProps) => {
             width='420'
             height='320'
             rx='49'
-            fill={color === 'primary' ? 'white' : color}
+            fill={bgColor[color].main}
           />
           <path
             d='M241.314 208.372L397.729 80H82.2708L241.314 208.372Z'
-            fill={bgColor[color]}
+            fill={bgColor[color].contrast}
           />
           <path
             d='M360 248.636L240 323.51L119.759 400H360V248.636Z'
-            fill={bgColor[color]}
+            fill={bgColor[color].contrast}
           />
           <path
             d='M119.781 248.636L239.891 323.51L360 400H119.781V248.636Z'
-            fill={bgColor[color]}
+            fill={bgColor[color].contrast}
           />
         </svg>
       </a>

@@ -32,7 +32,7 @@ const BlogPage = () => {
                   See Disclaimers
                 </a>
               </p>
-              <Contacts color='black' classNameWrapper='mt-2 !justify-start' />
+              <Contacts color='black' className='mt-2 !justify-start' />
             </div>
           </div>
           <div className='blog basis-2/3'>
@@ -40,18 +40,18 @@ const BlogPage = () => {
               Increasing Margins through Multi-Layer Cloud Cost Optimization
             </h1>
             <p className='mb-4 mt-6 text-sm text-slate-400'>
-              [PLACEHOLDER TEXT] Songster Capital’s technology growth strategy
-              provides stage-agnostic support to privately held cloud-native
-              businesses. We engage in direct investments, co-investments, and
-              secondary market transactions within the artificial intelligence,
-              quantum computing, fintech, and enterprise B2B SaaS sub-sectors.
-              We have decades of experience working in the startup ecosystem.
-              Our team has operated on both sides of the fence – at early-stage
-              startups building on the cloud and in the industry’s largest
-              public cloud providers. We bring deep sector expertise, unique
-              industry insights, and a global network across the cloud computing
-              ecosystem to every founder, investor, and business that we partner
-              with.
+              [PLACEHOLDER TEXT] Songster Capital&#39;s technology growth
+              strategy provides stage-agnostic support to privately held
+              cloud-native businesses. We engage in direct investments,
+              co-investments, and secondary market transactions within the
+              artificial intelligence, quantum computing, fintech, and
+              enterprise B2B SaaS sub-sectors. We have decades of experience
+              working in the startup ecosystem. Our team has operated on both
+              sides of the fence – at early-stage startups building on the cloud
+              and in the industry’s largest public cloud providers. We bring
+              deep sector expertise, unique industry insights, and a global
+              network across the cloud computing ecosystem to every founder,
+              investor, and business that we partner with.
             </p>
             <p className='text-sm text-slate-400'>
               Songster Capital’s technology growth strategy provides

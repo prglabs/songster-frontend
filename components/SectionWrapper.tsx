@@ -1,8 +1,8 @@
 import { cn } from '@/lib/utils';
-import { ReactElement } from 'react';
+import { PropsWithChildren, ReactElement } from 'react';
 
 type SectionWrapperProps = {
-  children: ReactElement;
+  children: JSX.Element[] | JSX.Element;
   className?: string;
   id?: string;
   bgColor?: 'white' | 'black';

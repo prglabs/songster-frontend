@@ -1,4 +1,5 @@
 import { footerProps } from '@/@types/general';
+import { cn } from '@/lib/utils';
 import React from 'react';
 
 function Footer({ darkMode = false, asDiv = false }: footerProps) {
@@ -8,7 +9,7 @@ function Footer({ darkMode = false, asDiv = false }: footerProps) {
       {asDiv ? (
         <div
           className={`${
-            darkMode ? 'text-gray-400' : 'bg-primary text-sm text-white'
+            darkMode ? 'text-secondary' : 'bg-primary text-sm text-white'
           } font-open-sans w-full py-4 text-center`}
         >
           &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights
@@ -16,9 +17,10 @@ function Footer({ darkMode = false, asDiv = false }: footerProps) {
         </div>
       ) : (
         <footer
-          className={`${
-            darkMode ? 'text-gray-400' : 'bg-primary text-sm text-white'
-          } font-open-sans w-full py-4 text-center`}
+          className={cn(
+            'font-open-sans w-full py-4 text-center text-xs',
+            darkMode ? 'text-secondary' : 'text-white'
+          )}
         >
           &#169; {new Date().getFullYear()} Songster Capital LLC. - All rights
           reserved

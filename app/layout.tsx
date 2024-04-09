@@ -1,9 +1,9 @@
 import Footer from '@/components/Footer';
+import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
+import { PropsWithChildren } from 'react';
 import '../styles/globals.css';
 import { inter, openSans } from './font';
-import { cn } from '@/lib/utils';
-import { PropsWithChildren } from 'react';
 
 export const metadata: Metadata = {
   title: 'Songster Capital',
@@ -15,11 +15,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html className='scroll-smooth' lang='en'>
       <body
-        className={cn(inter.variable, openSans.variable)}
+        className={cn(inter.variable, openSans.variable, 'font-body')}
         suppressHydrationWarning
       >
         {children}
-        <Footer darkMode />
       </body>
     </html>
   );

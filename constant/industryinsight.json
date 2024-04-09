@@ -1,25 +1,23 @@
-{
-  "data": [
-    {
-      "title": "Increasing margins through multi-layer cloud cost optimization",
-      "imageUrl": "/CloudCostImage.webp",
-      "imageDescription": "Cloud Cost Image",
-      "date": "Dec 2023",
-      "link": "/blog"
-    },
-    {
-      "title": "Gen AI presents greenfield opportunity for cloud systems integrators",
-      "imageUrl": "/GenAIImage.webp",
-      "imageDescription": "Gen AI Image",
-      "date": "Feb 2024",
-      "link": "/blog"
-    },
-    {
-      "title": "Internet of Things (IoT) poised to transform emerging markets",
-      "imageUrl": "/IoTWebImage.webp",
-      "imageDescription": "IoT Web Image Image",
-      "date": "Jan 2024",
-      "link": "/blog"
-    }
-  ]
-}
+[
+  {
+    "title": "Increasing margins through multi-layer cloud cost optimization",
+    "imageUrl": "/CloudCostImage.webp",
+    "imageDescription": "Cloud Cost Image",
+    "date": "Dec 2023",
+    "link": "/blog"
+  },
+  {
+    "title": "Gen AI presents greenfield opportunity for cloud systems integrators",
+    "imageUrl": "/GenAIImage.webp",
+    "imageDescription": "Gen AI Image",
+    "date": "Feb 2024",
+    "link": "/blog"
+  },
+  {
+    "title": "Internet of Things (IoT) poised to transform emerging markets",
+    "imageUrl": "/IoTWebImage.webp",
+    "imageDescription": "IoT Web Image Image",
+    "date": "Jan 2024",
+    "link": "/blog"
+  }
+]

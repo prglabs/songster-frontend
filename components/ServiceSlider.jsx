@@ -174,9 +174,9 @@ const ApplicationDevelopment = ({ text }) => (
         <br></br>
         <div className='font-semibold text-white'>
           Rapidly build your MVP or extend existing product functionality with
-          Peregrine's application development team. We specialize in back-end
-          design and development, rapid prototyping, front-end integration, and
-          UI/UX design services.
+          Peregrine&apos;s application development team. We specialize in
+          back-end design and development, rapid prototyping, front-end
+          integration, and UI/UX design services.
         </div>
         <br></br>
         <GradientShadowButton></GradientShadowButton>

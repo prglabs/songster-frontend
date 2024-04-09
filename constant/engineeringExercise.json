@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "/icon-technical-excellence.svg",
+    "title": "Technical Excellence",
+    "description": "Our team brings deep subject matter expertise and hands-on experience in artificial intelligence, cloud computing, and quantum technologies"
+  },
+  {
+    "icon": "/icon-execution.svg",
+    "title": "Execution",
+    "description": "As a firm, we prioritize urgency and execution. We have a bias for action and often operate at a faster pace than the startups that we invest in"
+  },
+  {
+    "icon": "/icon-integrity.svg",
+    "title": "Integrity",
+    "description": "We have uncompromising integrity, operate with full transparency, and build trust through consistency, hard work, and execution"
+  },
+  {
+    "icon": "/icon-teamwork.svg",
+    "title": "Teamwork",
+    "description": "We don’t pretend to know what we don’t know. We leverage a world-class network of sellers, engineers, and executives to help create exceptional outcomes"
+  },
+  {
+    "icon": "/icon-discipline.svg",
+    "title": "Discipline",
+    "description": "We believe slow-is-smooth and smooth-is-fast. We exercise rigid discipline and consistent daily execution as we pursue outsized returns for our clients"
+  }
+]

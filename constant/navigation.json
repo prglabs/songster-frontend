@@ -1,0 +1,7 @@
+[
+  { "name": "Home", "link": "/#home" },
+  { "name": "Strategy", "link": "/#strategy" },
+  { "name": "About Us", "link": "/#about-us" },
+  { "name": "Disclaimers", "link": "/disclaimers" },
+  { "name": "LP Login", "link": "/login" }
+]

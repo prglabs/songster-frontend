@@ -84,7 +84,7 @@ const InitialText = () => {
   return (
     <>
       <p className='text-lg'>
-        Hey there! Contact us if you'd like to see a demo or just chat!
+        Hey there! Contact us if you&apos;d like to see a demo or just chat!
       </p>
       <p className='overflow-hidden whitespace-nowrap font-light'>
         ------------------------------------------------------------------------
@@ -152,7 +152,7 @@ const Summary = ({ questions, setQuestions }) => {
 
   return (
     <>
-      <p>Beautiful! Here's what we've got:</p>
+      <p>Beautiful! Here&apos;s what we&apos;ve got:</p>
       {questions.map((q) => {
         return (
           <p key={q.key}>
@@ -164,7 +164,7 @@ const Summary = ({ questions, setQuestions }) => {
       {complete ? (
         <p className='text-emerald-300'>
           <FiCheckCircle className='mr-2 inline-block' />
-          <span>Sent! We'll get back to you ASAP 😎</span>
+          <span>Sent! We&apos;ll get back to you ASAP 😎</span>
         </p>
       ) : (
         <div className='mt-2 flex gap-2'>
@@ -218,6 +218,7 @@ const CurLine = ({
 
   useEffect(() => {
     return () => setFocused(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -268,7 +269,7 @@ const QUESTIONS = [
   },
   {
     key: 'name',
-    text: "Awesome! And what's ",
+    text: 'Awesome! And what&apos;s ',
     postfix: 'your name?',
     complete: false,
     value: '',

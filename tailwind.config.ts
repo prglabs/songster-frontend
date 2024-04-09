@@ -17,6 +17,11 @@ const config = {
         '2xl': '1400px',
       },
     },
+    fontFamily: {
+      display: 'var(--font-open-sans)',
+      body: 'var(--font-inter)',
+    },
+
     extend: {
       colors: {
         border: 'hsl(var(--border))',
