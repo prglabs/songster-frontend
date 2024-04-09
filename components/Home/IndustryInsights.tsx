@@ -26,7 +26,7 @@ const IndustryInsights = () => {
                   src={item.imageUrl}
                   alt={item.imageDescription}
                   fill
-                  objectFit='cover'
+                  className='object-cover'
                 />
               </div>
               <div className='bg-slate-300 p-2'>
