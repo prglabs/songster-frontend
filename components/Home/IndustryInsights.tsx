@@ -20,6 +20,7 @@ const IndustryInsights = () => {
               key={item.imageDescription}
               href={item.link}
               aria-label={item.link}
+              target='_blank'
             >
               <div className='relative h-64 w-full lg:h-60 '>
                 <Image

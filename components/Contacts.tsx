@@ -19,9 +19,9 @@ const bgColor = {
 };
 
 const sizeVariants = {
-  small: 32,
-  medium: 42,
-  large: 56,
+  small: { email: 32, linkedin: 32 },
+  medium: { email: 42, linkedin: 32 },
+  large: { email: 56, linkedin: 56 },
 };
 
 const Contacts = ({
@@ -43,8 +43,8 @@ const Contacts = ({
           icon={faLinkedin}
           size='3x'
           color={color === 'primary' ? 'white' : bgColor[color].main}
-          width={sizeVariants[size]}
-          height={sizeVariants[size]}
+          width={sizeVariants[size].linkedin}
+          height={sizeVariants[size].linkedin}
         />
       </a>
       <a
@@ -56,8 +56,8 @@ const Contacts = ({
         aria-label='Send email to media@songstercapital.com'
       >
         <svg
-          width={sizeVariants[size]}
-          height={sizeVariants[size]}
+          width={sizeVariants[size].email}
+          height={sizeVariants[size].email}
           viewBox='0 0 480 480'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'

@@ -1,23 +1,23 @@
 [
   {
-    "title": "Increasing margins through multi-layer cloud cost optimization",
-    "imageUrl": "/CloudCostImage.webp",
+    "title": "Increasing SaaS Margins through Multi-Layer Cloud Cost Optimizations",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*1ZQvA6gJIpeu7YGW66UsIA.jpeg",
     "imageDescription": "Cloud Cost Image",
-    "date": "Dec 2023",
-    "link": "/blog"
+    "date": "Mar 2024",
+    "link": "https://medium.com/@songstercapital/increasing-saas-margins-via-multi-layer-cloud-cost-optimization-5c68d6a2ca66"
   },
   {
-    "title": "Gen AI presents greenfield opportunity for cloud systems integrators",
-    "imageUrl": "/GenAIImage.webp",
+    "title": "Generative AI: Greenfield Space for the Cloud-Native",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*WfPymNuff-Oy56NhY_FhFw.jpeg",
     "imageDescription": "Gen AI Image",
-    "date": "Feb 2024",
-    "link": "/blog"
+    "date": "Mar 2024",
+    "link": "https://medium.com/@songstercapital/generative-ai-greenfield-space-for-the-cloud-native-9cb73086b9b1"
   },
   {
-    "title": "Internet of Things (IoT) poised to transform emerging markets",
-    "imageUrl": "/IoTWebImage.webp",
-    "imageDescription": "IoT Web Image Image",
-    "date": "Jan 2024",
-    "link": "/blog"
+    "title": "Quantum Computing: current state and future growth potential",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*lMRm7blwj16SNzCUla1spg.jpeg",
+    "imageDescription": "Quantum Computing Image",
+    "date": "Mar 2024",
+    "link": "https://medium.com/@songstercapital/quantum-mechanics-in-cloud-computing-artificial-intelligence-9c1f564ec876"
   }
 ]
