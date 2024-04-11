@@ -1,4 +1,4 @@
-import industryInsight from '@/constant/industryInsight.json';
+import industryInsight from '@/constant/industryinsight.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import Contacts from '../Contacts';
