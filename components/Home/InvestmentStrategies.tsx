@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import SectionWrapper from '../SectionWrapper';
 const InvestmentStrategies = () => {
   return (
-    <SectionWrapper bgColor='white' id='investment'>
+    <SectionWrapper bgColor='white' id='investment' className='min-h-svh'>
       <div className='mx-4 max-w-7xl py-12 xl:mx-auto'>
         <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
           <div className='flex flex-col gap-5 md:flex-row'>
@@ -19,18 +19,16 @@ const InvestmentStrategies = () => {
               </a>
             </div>
             <div className='flex-1'>
-              <h2 className='font-open-sans mb-2 text-4xl font-bold'>
-                Investment Strategies
-              </h2>
+              <h2 className='section-title'>Investment Strategies</h2>
               {data.data.map(({ title, description }, index) => (
-                <Fragment key={title}>
-                  <h3 className='mb-2 text-2xl font-bold underline decoration-primary decoration-4 underline-offset-[6px]'>
+                <div key={title} className='mb-8'>
+                  <h3 className='mt-2 text-2xl font-medium underline decoration-primary decoration-4 underline-offset-[6px]'>
                     {title}
                   </h3>
-                  <p className='mb-8 text-sm text-gray-400 last:mb-0'>
+                  <p className='mt-2 text-sm text-gray-400 last:mb-0'>
                     {description}
                   </p>
-                </Fragment>
+                </div>
               ))}
             </div>
           </div>

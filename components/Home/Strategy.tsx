@@ -13,12 +13,12 @@ import contactData from '@/constant/contact.json';
 import { accordionContactType } from '@/@types/contact';
 import Image from 'next/image';
 
-const Contact = () => {
+const Strategy = () => {
   return (
     <SectionWrapper
       id='strategy'
       bgColor='white'
-      className='relative min-h-[90dvh] justify-start'
+      className='relative min-h-svh justify-start'
     >
       <Image
         src='/grey-city-background.jpg'
@@ -27,11 +27,11 @@ const Contact = () => {
         className='relative top-0 aspect-auto h-80 w-screen object-cover object-[0_50%]'
         alt='building modern'
       />
-      <div className='mx-auto grid max-w-7xl grid-cols-1 items-center gap-x-10 gap-y-4 px-4 pb-8 pt-12 lg:grid-cols-2 2xl:px-0'>
+      <div className='mx-auto grid max-w-7xl flex-grow grid-cols-1 items-center gap-x-10 gap-y-4 px-4 pb-8 pt-12 lg:grid-cols-2 2xl:px-0'>
         <div>
-          <h1 className='section-title mb-4'>
+          <h2 className='section-title mb-4'>
             Investing in Cloud-Native Technology Businesses
-          </h1>
+          </h2>
           <p className='mb-8 text-secondary'>
             We deploy investment strategies across various vehicles focused on
             long-term value creation and positive economic impact
@@ -63,4 +63,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Strategy;

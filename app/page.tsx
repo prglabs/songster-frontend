@@ -13,8 +13,8 @@ const SongsterPage: React.FC = () => {
     <main className='flex flex-col items-center bg-black text-slate-50'>
       <Hero />
       <Strategy />
-      {/* <InvestmentStrategies /> */}
       <EngineeringExercise />
+      <InvestmentStrategies />
       <UnrivaledExperience />
       <Services />
       <IndustryInsights />
