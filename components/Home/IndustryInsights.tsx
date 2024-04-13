@@ -8,9 +8,7 @@ const IndustryInsights = () => {
   return (
     <SectionWrapper id='about-us' className='min-h-svh'>
       <div className='mx-4 max-w-5xl py-12 text-center lg:mx-auto'>
-        <h2 className='section-title text-3xl font-semibold lg:text-5xl'>
-          Industry Insights
-        </h2>
+        <h2 className='section-title'>Industry Insights</h2>
         <p className='mt-4'>
           Follow us on LinkedIn and Medium for the latest industry insights
         </p>
