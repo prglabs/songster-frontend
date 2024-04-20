@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <WaterDropGrid />
       <div className='relative mx-auto w-max'>
-        <h1 className='font-display relative z-10 mt-8 justify-center text-[42px] font-bold'>
+        <h1 className='relative z-10 mt-8 justify-center font-display text-[42px] font-bold'>
           Songster Capital
         </h1>
         <div className='absolute bottom-2 z-0 w-full border border-b-[5px] border-primary'></div>
