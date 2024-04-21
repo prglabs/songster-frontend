@@ -1,9 +1,8 @@
-import Footer from '@/components/Footer';
 import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
 import { PropsWithChildren } from 'react';
 import '../styles/globals.css';
-import { inter, openSans } from './font';
+import { avenirLight } from './font';
 
 export const metadata: Metadata = {
   title: 'Songster Group',
@@ -14,10 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html className='scroll-smooth' lang='en'>
-      <body
-        className={cn(inter.variable, openSans.variable, 'font-body')}
-        suppressHydrationWarning
-      >
+      <body className={cn(avenirLight.className)} suppressHydrationWarning>
         {children}
       </body>
     </html>

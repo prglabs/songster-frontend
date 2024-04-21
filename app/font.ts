@@ -15,3 +15,4 @@ export const openSans = Open_Sans({
 });
 
 export const foroSans = localFont({ src: './ForoSans-Medium.otf' });
+export const avenirLight = localFont({ src: './Avenir-Light.ttf' });
