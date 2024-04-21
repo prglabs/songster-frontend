@@ -2,7 +2,7 @@ import industryInsight from '@/constant/industryinsight.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import Contacts from '../Contacts';
-import { Navigation } from '../Navigation';
+import Navigation from '../Navigation';
 import SectionWrapper from '../SectionWrapper';
 const IndustryInsights = () => {
   return (

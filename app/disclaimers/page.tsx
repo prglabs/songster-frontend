@@ -1,5 +1,5 @@
 import Contacts from '@/components/Contacts';
-import { Navigation } from '@/components/Navigation';
+import Navigation from '@/components/Navigation';
 import SectionWrapper from '@/components/SectionWrapper';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -77,7 +77,7 @@ const DisclaimerPage = () => {
                 investment will be profitable or suitable for a particular
                 investor&apos;s financial situation or risk tolerance.
               </p>
-              <p className='text-sm '>
+              <p className='text-sm'>
                 The information and materials contained in this site, including
                 text, graphics, links or other items, are provided “as is,” “as
                 available.” Songster Capital does not warrant the accuracy,
@@ -109,8 +109,8 @@ const DisclaimerPage = () => {
             </div>
           </div>
         </div>
+        <Navigation />
       </SectionWrapper>
-      <Navigation />
     </main>
   );
 };

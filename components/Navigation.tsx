@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 type NavigationTypes = {
   className?: string;
 };
-export const Navigation = ({ className }: NavigationTypes) => {
+const Navigation = ({ className }: NavigationTypes) => {
   return (
     <div
       className={cn(
@@ -20,3 +20,4 @@ export const Navigation = ({ className }: NavigationTypes) => {
     </div>
   );
 };
+export default Navigation;

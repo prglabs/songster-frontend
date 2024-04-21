@@ -6,9 +6,9 @@ import '../styles/globals.css';
 import { inter, openSans } from './font';
 
 export const metadata: Metadata = {
-  title: 'Songster Capital',
+  title: 'Songster Group',
   description:
-    'We invest in cloud computing, artificial intelligence, and the commercialization of quantum mechanics',
+    'A technology-focused private equity firm investing in the advancements of cloud computing, artificial intelligence, and quantum mechanics',
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
