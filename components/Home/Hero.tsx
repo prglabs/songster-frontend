@@ -1,7 +1,9 @@
+import { cn } from '@/lib/utils';
 import Contacts from '../Contacts';
 import Footer from '../Footer';
 import SectionWrapper from '../SectionWrapper';
 import WaterDropGrid from '../WaterDropGrid';
+import { foroSans } from '@/app/font';
 
 const Hero = () => {
   return (
@@ -11,10 +13,15 @@ const Hero = () => {
     >
       <WaterDropGrid />
       <div className='relative mx-auto w-max'>
-        <h1 className='relative z-10 mt-8 justify-center font-display text-[42px] font-bold'>
+        <h1
+          className={cn(
+            foroSans.className,
+            'relative z-10 mt-8 justify-center text-[42px] font-bold'
+          )}
+        >
           Songster Group
         </h1>
-        <div className='absolute bottom-[5px] z-0 w-full border border-b-[4px] border-primary'></div>
+        <div className='absolute bottom-[6px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
       <p className='mt-6 text-slate-300 md:-ml-[98px] md:w-[580px]'>
         A technology-focused private equity firm investing in the advancements
