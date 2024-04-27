@@ -30,11 +30,11 @@ const Contacts = ({
   return (
     <div className={cn('flex items-center justify-center gap-4', className)}>
       <a
-        href='https://www.linkedin.com/company/songster-capital'
+        href='https://www.linkedin.com/company/songstergroup'
         target='_blank'
         rel='noopener noreferrer'
-        title='Songster-capital Linkedin Profile'
-        aria-label='Songster-capital Linkedin Profile'
+        title='Songster Group Linkedin Profile'
+        aria-label='Songster Group Linkedin Profile'
         className='block'
       >
         <FontAwesomeIcon
@@ -68,12 +68,12 @@ const Contacts = ({
         </svg>
       </a>
       <a
-        href='mailto: media@songstercapital.com'
+        href='mailto: media@songstervc.com'
         target='_blank'
         rel='noopener noreferrer'
         className='block'
-        title='Send email to media@songstercapital.com'
-        aria-label='Send email to media@songstercapital.com'
+        title='email to media@songstervc.com'
+        aria-label='email to media@songstervc.com'
       >
         <svg
           width={sizeVariants[size].email}
