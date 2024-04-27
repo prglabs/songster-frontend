@@ -8,7 +8,7 @@ import { foroSans } from '@/app/font';
 const Hero = () => {
   return (
     <SectionWrapper
-      className='md:pt-18 my-auto min-h-screen px-4 pb-8 pt-12 text-center sm:max-w-sm md:px-0'
+      className='md:pt-18 my-auto min-h-dvh px-4 pb-12 pt-12 text-center sm:max-w-sm md:px-0 md:pb-8'
       id='home'
     >
       <WaterDropGrid />
@@ -23,7 +23,7 @@ const Hero = () => {
         </h1>
         <div className='absolute bottom-[6px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
-      <p className='mt-6 text-slate-300 md:-ml-[88px] md:w-[560px]'>
+      <p className='mt-6 text-xs text-slate-300 md:-ml-[88px] md:w-[560px] md:text-base'>
         An American private equity firm investing in the advancements of cloud
         computing, artificial intelligence, and quantum mechanics
       </p>
