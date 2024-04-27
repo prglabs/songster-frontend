@@ -16,16 +16,16 @@ const Hero = () => {
         <h1
           className={cn(
             foroSans.className,
-            'relative z-10 mt-8 justify-center text-[42px] font-bold'
+            'relative z-10 mt-8 justify-center text-[42px]'
           )}
         >
           Songster Group
         </h1>
         <div className='absolute bottom-[6px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
-      <p className='mt-6 text-slate-300 md:-ml-[98px] md:w-[580px]'>
-        A technology-focused private equity firm investing in the advancements
-        of cloud computing, artificial intelligence, and quantum mechanics
+      <p className='mt-6 text-slate-300 md:-ml-[88px] md:w-[560px]'>
+        An American private equity firm investing in the advancements of cloud
+        computing, artificial intelligence, and quantum mechanics
       </p>
       <Contacts color='white' className='mt-6' />
       <Footer asDiv darkMode />
