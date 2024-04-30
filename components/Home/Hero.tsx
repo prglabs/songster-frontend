@@ -23,7 +23,7 @@ const Hero = () => {
         </h1>
         <div className='absolute bottom-[6px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
-      <p className='mt-6 text-xs text-slate-300 md:-ml-[88px] md:w-[560px] md:text-base'>
+      <p className='mt-6 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
         An American private equity firm investing in the advancements of cloud
         computing, artificial intelligence, and quantum mechanics
       </p>
