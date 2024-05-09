@@ -3,15 +3,16 @@ import { cn } from '@/lib/utils';
 import React from 'react';
 
 function Footer({ darkMode = false, asDiv = false }: footerProps) {
-  const DEFAULT_STYLE = 'font-open-sans w-full py-4 text-center text-sm';
-  const FOOTER_CONTENT = `${new Date().getFullYear()} Songster Group LLC. - All rights reserved`;
+  const DEFAULT_STYLE =
+    'font-open-sans w-full py-4 text-center text-xs md:text-sm';
+  const FOOTER_CONTENT = `${new Date().getFullYear()}  Peregrine Labs Inc - All rights reserved`;
   return (
     <>
       {asDiv ? (
         <div
           className={cn(
             DEFAULT_STYLE,
-            darkMode ? 'text-secondary' : 'bg-primary  text-white'
+            darkMode ? 'text-secondary' : 'text-white'
           )}
         >
           &#169; {FOOTER_CONTENT}

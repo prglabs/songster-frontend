@@ -1,3 +1,5 @@
+'use client';
+import { useClientMediaQuery } from '@/hook/useClientMediaQuery';
 import { cn } from '@/lib/utils';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,6 +29,7 @@ const Contacts = ({
   size = 'medium',
   className = '',
 }: ContactsProps) => {
+  const isMobile = useClientMediaQuery('(max-width: 600px)');
   return (
     <div className={cn('flex items-center justify-center gap-4', className)}>
       <a
@@ -41,8 +44,16 @@ const Contacts = ({
           icon={faLinkedin}
           size='3x'
           color={color === 'primary' ? 'white' : bgColor[color].main}
-          width={sizeVariants[size].linkedin}
-          height={sizeVariants[size].linkedin}
+          width={
+            isMobile
+              ? sizeVariants[size].linkedin - 8
+              : sizeVariants[size].linkedin
+          }
+          height={
+            isMobile
+              ? sizeVariants[size].linkedin - 8
+              : sizeVariants[size].linkedin
+          }
         />
       </a>
       <a
@@ -52,8 +63,12 @@ const Contacts = ({
         title='Songster Group Medium'
       >
         <svg
-          width={sizeVariants[size].medium}
-          height={sizeVariants[size].medium}
+          width={
+            isMobile ? sizeVariants[size].medium - 8 : sizeVariants[size].medium
+          }
+          height={
+            isMobile ? sizeVariants[size].medium - 8 : sizeVariants[size].medium
+          }
           viewBox='0 -55 256 256'
           version='1.1'
           xmlns='http://www.w3.org/2000/svg'
@@ -76,8 +91,12 @@ const Contacts = ({
         aria-label='email to media@songstervc.com'
       >
         <svg
-          width={sizeVariants[size].email}
-          height={sizeVariants[size].email}
+          width={
+            isMobile ? sizeVariants[size].email - 8 : sizeVariants[size].email
+          }
+          height={
+            isMobile ? sizeVariants[size].email - 8 : sizeVariants[size].email
+          }
           viewBox='0 0 480 480'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
