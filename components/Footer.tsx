@@ -5,7 +5,7 @@ import React from 'react';
 function Footer({ darkMode = false, asDiv = false }: footerProps) {
   const DEFAULT_STYLE =
     'font-open-sans w-full py-4 text-center text-xs md:text-sm';
-  const FOOTER_CONTENT = `${new Date().getFullYear()}  Peregrine Labs Inc - All rights reserved`;
+  const FOOTER_CONTENT = `${new Date().getFullYear()} Songster Group LLC - All rights reserved`;
   return (
     <>
       {asDiv ? (
