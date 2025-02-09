@@ -23,7 +23,7 @@ const Hero = () => {
         <div className='absolute bottom-[-3px] z-0 w-full border border-b-[3px] border-primary'></div>
       </div>
       <p className='mx-auto mt-6 w-10/12 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
-        Investing in the advancement of AI,
+        Investing in AI,
         high-performance computing, and the commercialization of quantum mechanics
       </p>
       <Contacts color='white' className='mt-6' />
