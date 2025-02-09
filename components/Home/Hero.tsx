@@ -24,8 +24,8 @@ const Hero = () => {
         <div className='absolute bottom-[-4px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
       <p className='mx-auto mt-6 w-10/12 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
-        An American private equity firm investing in the advancements of cloud
-        computing, artificial intelligence, and quantum mechanics
+        Investing in the advancements of artificial intelligence
+        high-performance computing, and the commercialization of quantum sciences and engineering
       </p>
       <Contacts color='white' className='mt-6' />
       <Footer asDiv darkMode />
