@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils';
 import Contacts from '../Contacts';
-import Footer from '../Footer';
 import SectionWrapper from '../SectionWrapper';
 import WaterDropGrid from '../WaterDropGrid';
 import { foroSans } from '@/app/font';
@@ -28,7 +27,6 @@ const Hero = () => {
         high-performance computing, and the commercialization of quantum mechanics
       </p>
       <Contacts color='white' className='mt-6' />
-      <Footer asDiv darkMode />
     </SectionWrapper>
   );
 };
