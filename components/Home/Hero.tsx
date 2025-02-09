@@ -19,7 +19,7 @@ const Hero = () => {
             'relative z-10 mt-8 justify-center text-4xl md:text-5xl'
           )}
         >
-          Songster Group
+          Songster Ventures
         </h1>
         <div className='absolute bottom-[-4px] z-0 w-full border border-b-[4px] border-primary'></div>
       </div>
