@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <p className='mx-auto mt-6 w-10/12 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
         Investing in AI,
-        high-performance computing, and the commercialization of quantum mechanics
+        High-Performance Computing, and the Commercialization of Quantum Mechanics
       </p>
       <Contacts color='white' className='mt-6' />
     </SectionWrapper>
