@@ -20,7 +20,7 @@ const Hero = () => {
         >
           Songster Ventures
         </h1>
-        <div className='absolute bottom-[-4px] z-0 w-full border border-b-[4px] border-primary'></div>
+        <div className='absolute bottom-[-3px] z-0 w-full border border-b-[3px] border-primary'></div>
       </div>
       <p className='mx-auto mt-6 w-10/12 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
         Investing in the advancement of AI,
