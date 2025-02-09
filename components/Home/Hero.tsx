@@ -11,17 +11,6 @@ const Hero = () => {
       id='home'
     >
       <WaterDropGrid />
-      <div className='relative mx-auto w-max'>
-        <h1
-          className={cn(
-            foroSans.className,
-            'relative z-10 mt-8 justify-center text-4xl md:text-5xl'
-          )}
-        >
-          Songster Ventures
-        </h1>
-        <div className='absolute bottom-[-3px] z-0 w-full border border-b-[3px] border-primary'></div>
-      </div>
       <p className='mx-auto mt-6 w-10/12 text-sm text-slate-300 md:-ml-[88px] md:w-[560px] md:text-lg'>
         Investing in AI,
         High-Performance Computing, and the Commercialization of Quantum Mechanics
