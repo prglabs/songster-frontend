@@ -1,4 +1,4 @@
-import Footer from '@/components/Footer';
+
 import { cn } from '@/lib/utils';
 import { PropsWithChildren } from 'react';
 import { inter, openSans } from '../font';
@@ -11,7 +11,6 @@ export default function RootLayout({ children }: PropsWithChildren) {
         suppressHydrationWarning
       >
         {children}
-        <Footer darkMode />
       </body>
     </html>
   );
