@@ -21,4 +21,4 @@ export const ballo2 = Baloo_2({
   variable: '--font-open-sans',
 });
 
-export const foroSans = localFont({ src: './ForoSans-Light.otf' });
+export const foroSans = localFont({ src: './ForoSans-Regular.otf' });
