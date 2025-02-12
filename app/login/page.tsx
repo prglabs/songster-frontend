@@ -18,9 +18,9 @@ const LoginPage = () => {
         bgColor='white'
         className='mx-auto flex max-w-md flex-col items-center justify-center'
       >
-        <div className='mt-20 w-full border border-black px-12 py-10 text-center'>
+        <div className='mt-20 w-full border border-black px-12 py-10 text-center mx-2'>
           <Image
-            src='/logo-192x192.webp'
+            src='/logo-songster.svg'
             width={64}
             height={64}
             className='mx-auto mb-2'
@@ -47,14 +47,14 @@ const LoginPage = () => {
             Reset Password
           </Link>
         </div>
-        <h1 className='relative z-10 mt-16 justify-center text-[42px] font-bold'>
+        {/* <h1 className='relative z-10 mt-16 justify-center text-[42px] font-bold'>
           Songster Capital
         </h1>
         <p className='mt-6 max-w-96 text-center'>
           We invest in cloud computing, artificial intelligence, and the
           commercialization of quantum mechanics
         </p>
-        <Contacts color='black' className='mt-6' />
+        <Contacts color='black' className='mt-6' /> */}
       </SectionWrapper>
     </main>
   );
