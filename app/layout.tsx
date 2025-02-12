@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
 import { PropsWithChildren } from 'react';
 import '../styles/globals.css';
-import { ballo2 } from './font';
+import { ballo2, foroSans } from './font';
 
 export const metadata: Metadata = {
   title: 'Songster Group',
@@ -13,7 +13,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html className='scroll-smooth' lang='en'>
-      <body className={cn(ballo2.className)} suppressHydrationWarning>
+      <body
+        className={`${ballo2.className} ${foroSans.variable}`}
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>
