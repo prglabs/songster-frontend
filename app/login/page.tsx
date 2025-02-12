@@ -13,20 +13,22 @@ const LoginPage = () => {
     console.log(e);
   };
   return (
-    <main className='flex min-h-[90dvh] flex-col items-center justify-center'>
+    <main className='flex min-h-[100dvh] flex-col items-center justify-center bg-black'>
       <SectionWrapper
-        bgColor='white'
+        bgColor='black'
         className='mx-auto flex max-w-md flex-col items-center justify-center'
       >
-        <div className='mt-20 w-full border border-black px-12 py-10 text-center mx-2'>
-          <Image
-            src='/logo-songster.svg'
-            width={64}
-            height={64}
-            className='mx-auto mb-2'
-            alt='songster capital logo'
-          />
-          <h1 className='mb-8 text-4xl font-medium'>Sign In</h1>
+        <div className='mx-2 mt-10 w-full border border-gray-900 px-12 py-10 text-center bg-[#151515] rounded-sm'>
+          <Link href="/" title='back to home page'>
+            <Image
+              src='/logo-songster-light.svg'
+              width={64}
+              height={64}
+              className='mx-auto mb-2'
+              alt='songster capital logo'
+            />
+          </Link>
+          <h1 className='mb-8 text-4xl font-medium text-white'>Sign In</h1>
           <form onSubmit={onSubmitHandler}>
             <Input type='email' placeholder='Email' className='mb-3' />
             <Input type='password' placeholder='Password' className='mb-4' />
