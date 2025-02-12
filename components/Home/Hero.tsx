@@ -1,8 +1,6 @@
-import { cn } from '@/lib/utils';
 import Contacts from '../Contacts';
 import SectionWrapper from '../SectionWrapper';
 import WaterDropGrid from '../WaterDropGrid';
-import { foroSans } from '@/app/font';
 
 const Hero = () => {
   return (
