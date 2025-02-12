@@ -14,7 +14,7 @@ function Navbar() {
           alt='logo'
         />
         <Link href='/login' className='text-lg text-white'>
-          Lp Login
+          LP Login
           {/* <Button variant="ghost" className='text-white' >Lp Login</Button> */}
         </Link>
       </div>
