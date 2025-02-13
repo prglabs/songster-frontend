@@ -6,7 +6,7 @@ import Link from 'next/link';
 function Navbar() {
   return (
     <header className='sticky top-0 bg-black pb-4 pt-10'>
-      <div className='container flex items-center gap-x-4'>
+      <div className='container flex items-center gap-x-6'>
         <Image
           src='/logo-songster-light.svg'
           height={32}
