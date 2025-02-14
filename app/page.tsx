@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <header className='sticky top-0 bg-black pb-4 pt-10'>
+    <header className='sticky top-0 bg-black py-10'>
       <div className='container flex items-center gap-x-6'>
         <Image
           src='/logo-songster-light.svg'
@@ -13,9 +13,8 @@ function Navbar() {
           width={32}
           alt='logo'
         />
-        <Link href='/login' className='text-lg text-white font-foro-sans'>
+        <Link href='/login' className='text-lg text-white'>
           LP Login
-          {/* <Button variant="ghost" className='text-white' >Lp Login</Button> */}
         </Link>
       </div>
     </header>
@@ -25,7 +24,7 @@ const SongsterPage: React.FC = () => {
   return (
     <>
       <Navbar />
-      <main className='flex flex-col items-center bg-black text-slate-50 h-[calc(100dvh-88px)]'>
+      <main className='flex flex-col items-center bg-black text-slate-50 h-[calc(100dvh-112px)]'>
         <Hero />
       </main>
     </>
