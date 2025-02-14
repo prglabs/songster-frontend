@@ -5,7 +5,7 @@ import WaterDropGrid from '../WaterDropGrid';
 const Hero = () => {
   return (
     <SectionWrapper
-      className='md:pt-18 my-auto px-4 pb-12 pt-12 text-center sm:max-w-sm md:px-0 md:pb-8 lg:scale-90'
+      className='px-4 text-center justify-start sm:max-w-sm md:px-0 lg:scale-90'
       id='home'
     >
       <WaterDropGrid />
